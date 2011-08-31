@@ -1,7 +1,6 @@
 class PagesController < ApplicationController
   def home
     @title = "Home"
-    @author = "Jeff Schmitz"
   end
 
   def contact
